@@ -24,6 +24,7 @@ if (flutterVersionName == null) {
 }
 
 android {
+    ext.kotlin_version = '1.8.10' // Use a Kotlin version that works with Java 1.8
     namespace = "co.doneservices.callkeep.example"
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
